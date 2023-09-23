@@ -1,0 +1,155 @@
+:root{
+    --fz: 10px;
+    --border-color: #e80909;
+    --color-text: #fff;
+    --color-link: #282323;
+}
+
+html{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--fz);
+}
+
+body{
+    background: var(--color-text);
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    height: 7rem;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+header h1{
+    flex: 1;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 img{
+    margin-left: 15rem;
+    margin-top: -1rem;
+    width: 7rem;
+}
+
+header .nav{
+    flex: 3;
+
+}
+
+header .nav ul{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    margin: 0;
+    margin-left: 25rem;
+    padding: 0;
+    width: 70%;
+}
+
+header .nav li{
+    list-style: none;
+}
+
+header .nav a{
+    text-transform: uppercase;
+    color: var(--border-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+header .nav a:hover{
+    color: var(--color-link);
+    transition: 1s;
+}
+
+hr{
+    border: none;
+    background: var(--border-color);
+    height: 0.5rem;
+    width: 80%;
+}
+
+.content{
+    display: flex;
+    height: 40rem;
+    margin-left: 10%;
+    margin-top: 5rem;
+    width: 80%;
+}
+
+.content_box{
+    width: 50%;
+}
+
+.content_1 p{
+    color: var(--color-link);
+    font-size: 2rem;
+    line-height: 3.3rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    width: 90%;
+}
+
+.content_1 a button{
+    margin-left: 2rem;
+    margin-top: 4rem;
+    background: var(--border-color);
+    border-radius: 2rem;
+    border: none;
+    color: var(--color-text);
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    transition: .50s;
+}
+
+.content_1 a button:hover{
+    box-shadow: 0 0 1rem var(--border-color);
+    background: transparent;
+    color: var(--border-color);
+    transform: scale(1.2) rotate(3deg);
+    transition: .50s;
+}
+
+.content_2 img{
+    margin-left: 13rem;
+    margin-top: 4rem;
+}
+
+footer{
+    background: var(--border-color);
+    height: 10rem;
+    margin-top: 5.2rem;
+    width: 100%;
+}
+
+footer p{
+    font-family: 'poppins',sans-serif;
+    color: var(--color-text);
+    padding: 1rem 0 .2rem 0;
+    margin: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+footer .icon{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60rem;
+    width: 30rem;
+}
+
+.icon img{
+    border-radius: 1rem;
+    width: 4rem;
+}
