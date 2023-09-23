@@ -1,0 +1,75 @@
+:root{
+    --fz: 10px;
+    --color-text: #171414;
+}
+
+html{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: var(--fz);
+}
+
+body{
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    height: 8rem;
+    margin-top: 2rem;
+    margin-left: 10%;
+    width: 80%;
+}
+
+header h1{
+    flex: 0.5;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 img{
+    margin-left: 4rem;
+    width: 6rem;
+}
+
+header .nav{
+    flex: 3;
+}
+
+header .nav ul{
+    display: flex;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 45rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+
+header .nav li{
+    list-style: none;
+}
+
+header .nav a{
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+header .btn{
+    flex: 0.5;
+}
+
+header .btn a{
+    margin-left: 8rem;
+    margin-top: 2rem;
+    position: absolute;
+}
+
+header .btn a img{
+    width: 4rem;
+}
