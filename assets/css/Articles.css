@@ -1,6 +1,9 @@
 :root{
     --fz: 10px;
-    --color-text: #171414;
+    --color-text2: #171414;
+    --border-color: #e80909;
+    --color-text: #fff;
+    --bg: #e9e7e7;
 }
 
 html{
@@ -56,8 +59,15 @@ header .nav li{
 }
 
 header .nav a{
+    color: var(--border-color);
+    text-transform: uppercase;
     text-decoration: none;
     font-size: 1.7rem;
+}
+
+header .nav a:hover{
+    color: var(--color-link);
+    transition: 1s;
 }
 
 header .btn{
@@ -72,4 +82,214 @@ header .btn a{
 
 header .btn a img{
     width: 4rem;
+}
+
+hr{
+    border: none;
+    background: var(--border-color);
+    height: 0.5rem;
+    width: 76%;
+    margin-left: 19rem;
+}
+
+.presentation{
+    margin-left: 7.5%;
+    margin-top: 4rem;
+    width: 85%;
+}
+
+.presentation_box{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.presentation_produits_1_box{
+    background: var(--bg);
+    border-radius: 2rem;
+    border: .1rem solid;
+    height: 35rem;
+    overflow: hidden;
+    width: 30rem;
+}
+
+.presentation_produits_1_box:hover{
+    transform: rotate(5deg);
+    transition: 1s;
+}
+
+/* produit num 1 */
+.presentation_produits_1_carre_1_img{
+    background: url(../img/c3.JPG) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+.presentation_produits_1_carre_1_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation_produits_1_carre_1_text .p1{
+    font-size: 1.7rem;
+    margin: 0;
+    padding: 0;
+    margin-top: .5rem;
+    text-align: center;
+}
+
+.presentation_produits_1_carre_1_text .p2{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.presentation_produits_1_carre_1_text .p2 b{
+    font-size: 1.9rem;
+    display: flex;
+    margin-right: 5rem;
+}
+
+.presentation_produits_1_carre_1_text .p2 button{
+    border: none;
+    border-radius: 1rem;
+    background: var(--border-color);
+    color: var(--color-text);
+    padding: .5rem 1rem;
+    font-size: 1.7rem;
+    margin-top: -.5rem;
+    transition: 1s;
+}
+
+.presentation_produits_1_carre_1_text .p2 button:hover{
+    transition: 1s;
+    transform: scale(1.2) rotate(3deg);
+    background: var(--color-text);
+    box-shadow: 0 0 1rem var(--border-color);
+    color: var(--border-color);
+}
+
+/* produit num 2 */
+
+.presentation_produits_1_carre_2_img{
+    background: url(../img/c4.JPG) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 3 */
+.presentation_produits_1_carre_3_img{
+    background: url(../img/c2.png) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 4 */
+.presentation_produits_1_carre_4_img{
+    background: url(../img/div5.png) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 5 */
+.presentation_produits_1_carre_5_img{
+    background: url(../img/div10.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 6 */
+.presentation_produits_1_carre_6_img{
+    background: url(../img/div1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 7 */
+.presentation_produits_1_carre_7_img{
+    background: url(../img/div11.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 8 */
+.presentation_produits_1_carre_8_img{
+    background: url(../img/div2.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 9 */
+.presentation_produits_1_carre_9_img{
+    background: url(../img/div3.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 10 */
+.presentation_produits_1_carre_10_img{
+    background: url(../img/div9.jpeg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 11 */
+.presentation_produits_1_carre_11_img{
+    background: url(../img/div8.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 12 */
+.presentation_produits_1_carre_12_img{
+    background: url(../img/div7.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 13 */
+.presentation_produits_1_carre_13_img{
+    background: url(../img/div12.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 14 */
+.presentation_produits_1_carre_14_img{
+    background: url(../img/div6.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 15 */
+.presentation_produits_1_carre_15_img{
+    background: url(../img/div4.jpg) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
+}
+
+/* produit num 16 */
+.presentation_produits_1_carre_16_img{
+    background: url(../img/c3.JPG) no-repeat center center;
+    background-size: cover;
+    height: 70%;
+    width: 100%;
 }
